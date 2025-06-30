@@ -1,7 +1,12 @@
-export default function Home() {
+import Footer from './components/Footer';
+
+export default function HomePage() {
   return (
-    <main>
-      <h1 className="text-center">Technical Test</h1>
+    <main className="min-h-screen flex flex-col justify-end">
+      <div className="flex-grow">
+      </div>
+
+      <Footer/>
     </main>
-  )
+  );
 }
