@@ -9,9 +9,9 @@ export default function Navbar() {
         <Logo className='mr-20'></Logo>
 
         <div className="hidden md:flex space-x-8 text-white">
-          <a href="#" className="hover:text-light-blue">DISCOVER</a>
-          <a href="#" className="hover:text-light-blue">FEATURES</a>
-          <a href="#" className="hover:text-light-blue">SEASONS</a>
+          <a href="#" className="hover:text-light-blue font-display tracking-extraWide">DISCOVER</a>
+          <a href="#" className="hover:text-light-blue font-display tracking-normalWide">FEATURES</a>
+          <a href="#" className="hover:text-light-blue font-display tracking-normalWide">SEASONS</a>
         </div>
       </div>
 

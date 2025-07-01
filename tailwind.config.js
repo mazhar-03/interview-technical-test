@@ -17,6 +17,10 @@ module.exports = {
         yellow: '#ffde00',
       },
     },
+    letterSpacing: {
+      extraWide: '0.5em',
+      normalWide: '0.14em',
+    }
   },
   plugins: [],
 }
