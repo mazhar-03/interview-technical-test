@@ -4,7 +4,7 @@ import Button from './Button';
 
 export default function Footer() {
   return (
-    <footer className="w-full py-4 bg-darkblue text-white">
+    <footer className="w-full h-1/6 py-4 bg-darkblue text-white">
       <div className="flex flex-col md:flex-row justify-around items-center ml-80 md:px-8 lg:px-16">
 
         <div className="flex flex-col items-center md:items-start  mb-6 md:mb-0 text-center md:text-left md:flex-1">
@@ -25,19 +25,19 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-end mb-6 md:mr-80 text-center md:text-right md:flex-1">
           <p className="text-white text-base mb-4 font-body">FOLLOW US</p>
           <div className="flex space-x-2">
-            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue hover:bg-yellow transition-colors">
+            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue">
               <span className="font-bold text-sm font-body">YT</span>
             </a>
-            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue hover:bg-yellow transition-colors">
+            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue">
               <span className="font-bold text-sm font-body">Dis</span>
             </a>
-            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue hover:bg-yellow transition-colors">
+            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue">
               <span className="font-bold text-sm font-body">Tik</span>
             </a>
-            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue hover:bg-yellow transition-colors">
+            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue">
               <span className="font-bold text-sm font-body">IG</span>
             </a>
-            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue hover:bg-yellow transition-colors">
+            <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue">
               <span className="font-bold text-sm font-body">TW</span>
             </a>
           </div>
