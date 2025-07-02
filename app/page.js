@@ -1,5 +1,20 @@
 export default function Home() {
   return (
+
+
+    // <div className="relative h-5/6 overflow-hidden backdrop-blur-2xl">
+    //   <Image
+    //     src="/Image/bg_image.png"
+    //     alt="Background Image"
+    //     width={1600}
+    //     height={400}
+    //     layout="responsive"
+    //   />
+    // </div>
+    <p className="text-yellow"></p>
+  )
+}
+
 /*
     <div className="p-6">
       <h1 className="font-bold text-green-600">
@@ -42,6 +57,25 @@ export default function Home() {
         <div className="">Main Content</div>
       </div>
     </div>*/
-    <p></p>
-  )
-}
+
+/*<div className="h-screen text-white Parent bg-darkblue">
+  <div className="container mx-auto">
+    <div className="grid gap-4 lg:grid-cols-4 md:grid-cols-2">
+      <div className="bg-sky-500 p-6 rounded-lg">First columns</div>
+      <div className="bg-sky-500 p-6 rounded-lg row-span-8">Second columns</div>
+      <div className="bg-red-500 p-6 rounded-lg col-span-12">Third columns</div>
+      <div className="bg-sky-500 p-6 rounded-lg">Fourth columns</div>
+      <div className="bg-sky-500 p-6 rounded-lg ">Fifth columns</div>
+      <div className="bg-sky-500 p-6 rounded-lg">Sixth columns</div>
+    </div>
+  </div>
+</div>*/
+
+/*<div className="h-screen p-4 Parent">
+  <div className="inline-block p-4 blur text-black bg-white border rounded-lg shadow-md shadow-blue-500/50">
+    <h1 className="text-2xl">Hello</h1>
+    <p className="mb-4">This is my div</p>
+    <button className="px-3 py-2 rounded-lg cursor-pointer bg-cyan-500 text-white">Say hello</button>
+  </div>
+</div>
+*/
