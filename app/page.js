@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Home() {
   return (
 
@@ -11,7 +13,37 @@ export default function Home() {
     //     layout="responsive"
     //   />
     // </div>
-    <p className="text-yellow"></p>
+
+    <div>
+      <div className="absolute left-1/4 -ml-1.5">
+        <span className="block w-1 h-26px bg-lightblue"></span>
+      </div>
+
+      <div className="absolute top-1/4 left-1/4 -mt-2 -ml-2">
+        <div className="flex flex-col items-start">
+
+          <span className="mt-1.5 w-1.5 h-1.5 bg-yellow rounded-full"></span>
+          <h1 className="mt-4 text-yellow text-3xl font-display tracking-normalWide text-shadow-yellow">
+            SPACE
+          </h1>
+        </div>
+        <div className="flex flex-col items-start ">
+          <h1 className="text-lightblue text-7xl font-display tracking-normalWide text-shadow-lightblue">
+            KANGURUS
+          </h1>
+          <span className="mt-1.5 w-1.5 h-1.5 bg-yellow rounded-full"></span>
+          <span className="mt-1.5 w-1.5 h-1.5 bg-lightblue rounded-full"></span>
+
+          <h1 className="text-white text-lg font-body tracking-accurate mt-4 ml-4 break-words w-96">
+            Warp into an epic space adventure & defend the motherland against the cyber dingoes!
+          </h1>
+          <span className="block mt-2 w-1 h-6 bg-yellow"></span>
+          <span className="my-3 w-1.5 h-1.5 bg-white rounded-full"></span>
+          <span className="block  mt-1.5 w-1 h-72 bg-lightblue"></span>
+        </div>
+      </div>
+    </div>
+
   )
 }
 

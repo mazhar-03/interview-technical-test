@@ -17,3 +17,34 @@
   font-style: normal;
   font-display: swap;
 }
+
+.text-shadow-yellow {
+  text-shadow:
+    3px 3px 6px rgba(255, 222, 0, 0.8),
+    6px 6px 12px rgba(255, 222, 0, 0.6),
+    9px 9px 18px rgba(255, 222, 0, 0.4);
+}
+
+.text-lighting-yellow {
+  text-shadow:
+    0 0 5px #ffde00,
+    0 0 10px #ffde00,
+    0 0 20px #ffde00,
+    0 0 30px #ffde00;
+}
+
+.text-shadow-lightblue {
+  text-shadow:
+    4px 4px 10px rgba(52, 254, 188, 0.85),
+    8px 8px 20px rgba(52, 254, 188, 0.6),
+    12px 12px 30px rgba(52, 254, 188, 0.4);
+}
+.text-lighting-lightblue {
+  text-shadow:
+    0 0 4px #34febc,
+    0 0 8px #34febc
+}
+
+.h-26px {
+  height: 6.9rem;
+}

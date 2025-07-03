@@ -20,6 +20,8 @@ module.exports = {
     letterSpacing: {
       extraWide: '0.5em',
       normalWide: '0.14em',
+      spec: '0.09em',
+      accurate: '0.05em',
     }
   },
   plugins: [],
