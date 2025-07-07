@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="absolute top-0 w-full z-10">
         <div className="container flex mx-auto h-screen gap-8">
-          <div className="h-full flex flex-col justify-center gap-2">
+          <div className="h-full flex flex-col justify-center gap-2 ml-8 lg:ml-0">
             <span className="w-1 bg-lightblue h-72"></span>
             <span className="w-1 h-1 mb-28 bg-yellow rounded-full shrink-0 grow-0"></span>
             <span className="w-1 h-1  bg-yellow rounded-full shrink-0 grow-0"></span>
@@ -34,20 +34,19 @@ export default function Home() {
             <span className="w-1 h-1 bg-white roundead-full shrink-0 grow-0"></span>
             <span className="w-1 h-26px bg-lightblue grow"></span>
           </div>
-          <div className="relative h-full flex flex-col justify-start md:justify-center">
-            <div className="h-1/5 md:hidden" />
-            <h1 className="flex flex-col">
+          <div className="relative w-full h-full flex flex-col justify-center -mt-32 lg:mt-0">
+            <h1 className="flex flex-col w-full">
               <span className="text-yellow text-3xl font-display tracking-wider text-shadow-yellow">SPACE</span>
               <span className="text-lightblue text-7xl font-display tracking-wider text-shadow-lightblue">KANGURUS</span>
             </h1>
-            <p className="text-white text-lg font-body tracking-accurate mt-8 ml-4 break-words w-96">
+            <p className="text-white text-lg font-body tracking-accurate mt-8 ml-4 break-words">
               Warp into an epic space adventure & defend the motherland against the cyber dingoes!
             </p>
 
-            <div className="flex gap-8 ml-2 mt-8">
+            <div className="flex gap-8 mt-8 grow-0">
               <div className="flex space-x-6 bg-transparent pt-6">
-                <button className="relative flex items-center px-6 py-3 border-2 border-lightblue text-lightblue bg-transparent rounded-[999px]">
-                  <span className="absolute w-1 h-1 bg-lightblue rounded-full ml-34px"></span>
+                <button className="relative flex items-center px-6 py-3 border-2 border-lightblue text-lightblue bg-transparent rounded-full">
+                  <span className="absolute w-1 h-1 bg-lightblue rounded-full ml-[34px]"></span>
                   WISHLIST ON
                   <Image
                     src="/static/Image/logos/steam_icon.png"
@@ -60,7 +59,7 @@ export default function Home() {
                 </button>
               </div>
               <div className="flex space-x-6 bg-transparent pt-6">
-                <button className="relative flex items-center px-6 py-3 border-2 border-yellow text-yellow font-mono text-sm uppercase tracking-widest rounded-[999px] hover:bg-yellow-400/10 hover:text-black">
+                <button className="relative flex items-center px-6 py-3 border-2 border-yellow text-yellow font-mono text-sm uppercase tracking-widest rounded-full hover:bg-yellow-400/10 hover:text-black">
                   <span className="absolute w-1 h-1 bg-yellow rounded-full ml-16"></span>
                   Sign Up
                   <span className="absolute w-1 h-1 bg-yellow rounded-full -ml-3"></span>
