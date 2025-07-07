@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="w-full h-1/6 py-4 bg-darkblue text-white">
-      <div className="flex flex-col md:flex-row justify-around items-center ml-80 md:px-8 lg:px-16">
+    <footer className="w-full py-4 bg-darkblue text-white">
+      <div className="flex flex-col w-full container mx-auto md:flex-row justify-around items-center">
 
         <div className="flex flex-col items-center md:items-start  mb-6 md:mb-0 text-center md:text-left md:flex-1">
           <a href="#" className="hover:text-lightblue transition-colors font-display tracking-spec">HOME</a>
@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="#" className="hover:text-lightblue transition-colors text-yellow font-display mt-6 tracking-spec">LOG OUT</a>
         </div>
 
-        <div className="flex flex-col items-center flex-shrink-0 mb-6 gap-16">
+        <div className="flex flex-col items-center shrink-0 mb-6 gap-16">
           <Logo  className="text-lg mb-0 bg-lightblue -mt-4">SK</Logo>
           <button className=" flex items-center
                   px-6 py-3 border-2 border-lightblue text-lightblue bg-transparent rounded-[999px] ">
@@ -33,7 +33,7 @@ export default function Footer() {
           </button>
         </div>
 
-        <div className="flex flex-col items-center md:items-end mb-6 md:mr-80 text-center md:text-right md:flex-1">
+        <div className="flex flex-col items-center md:items-end mb-6 text-center md:text-right md:flex-1">
           <p className="text-white text-base mb-4 font-body">FOLLOW US</p>
           <div className="flex space-x-2">
             <a href="#" className="flex items-center justify-center w-8 h-8 rounded-full bg-lightblue text-darkblue">

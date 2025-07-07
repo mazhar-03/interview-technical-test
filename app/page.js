@@ -48,9 +48,9 @@ export default function Home() {
           </div>
           <div className="relative h-full flex flex-col justify-center">
             <h1 className="flex flex-col">
-              <span className="text-yellow text-3xl font-display tracking-normalWide text-shadow-yellow">SPACE</span>
+              <span className="text-yellow text-3xl font-display tracking-wider text-shadow-yellow">SPACE</span>
               <span
-                className="text-lightblue text-7xl font-display tracking-normalWide text-shadow-lightblue">KANGURUS</span>
+                className="text-lightblue text-7xl font-display tracking-wider text-shadow-lightblue">KANGURUS</span>
             </h1>
             <p className="text-white text-lg font-body tracking-accurate mt-8 ml-4 break-words w-96">
               Warp into an epic space adventure & defend the motherland against the cyber dingoes!
