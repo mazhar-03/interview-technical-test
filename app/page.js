@@ -35,26 +35,57 @@ export default function Home() {
         />
       </div>
 
-      <div className="absolute top-0 w-full">
-        <div className="container flex mx-auto h-screen gap-8 ">
+      <div className="absolute top-0 w-full ml-4">
+        <div className="container flex mx-auto h-screen gap-8">
           <div className="h-full flex flex-col justify-center gap-2">
-            <span className="w-1 bg-lightblue grow"></span>
-            <span className="w-1 h-1 bg-yellow rounded-full"></span>
-            <span className="w-1 h-1 bg-yellow rounded-full"></span>
-            <span className="w-1 h-1 bg-yellow rounded-full"></span>
-            <span className="w-1 h-26px bg-lightblue"></span>
+            <span className="w-1 bg-lightblue h-72"></span>
+            <span className="w-1 h-1 mb-28 bg-yellow rounded-full shrink-0 grow-0"></span>
+            <span className="w-1 h-1  bg-yellow rounded-full"></span>
+            <span className="w-1 h-1  bg-lightblue rounded-full"></span>
+            <span className="w-1 h-6 mt-28  bg-yellow"></span>
+            <span className="w-1 h-1 bg-white rounded-full"></span>
+            <span className="w-1 h-26px bg-lightblue grow"></span>
           </div>
           <div className="relative h-full flex flex-col justify-center">
             <h1 className="flex flex-col">
               <span className="text-yellow text-3xl font-display tracking-normalWide text-shadow-yellow">SPACE</span>
-              <span className="text-lightblue text-7xl font-display tracking-normalWide text-shadow-lightblue">KANGURUS</span>
+              <span
+                className="text-lightblue text-7xl font-display tracking-normalWide text-shadow-lightblue">KANGURUS</span>
             </h1>
-              <p className="text-white text-lg font-body tracking-accurate mt-4 ml-4 break-words w-96">
-                Warp into an epic space adventure & defend the motherland against the cyber dingoes!
-              </p>
+            <p className="text-white text-lg font-body tracking-accurate mt-8 ml-4 break-words w-96">
+              Warp into an epic space adventure & defend the motherland against the cyber dingoes!
+            </p>
+
+            <div className="flex gap-8 ml-2 mt-8">
+              <div className="flex space-x-6 bg-transparent pt-6">
+                <button className=" flex items-center
+                  px-6 py-3 border-2 border-lightblue text-lightblue bg-transparent rounded-[999px] ">
+                  <span className="absolute w-1 h-1 bg-lightblue rounded-full ml-34px"></span>
+                  WISHLIST ON
+                  <Image
+                    src="/static/Image/logos/steam_icon.png"
+                    alt="Steam Logo"
+                    width={24}
+                    height={24}
+                    className="ml-2"
+                  />
+                  <span className="absolute w-1 h-1 bg-lightblue rounded-full -ml-3"></span>
+                </button>
+              </div>
+              <div className="flex space-x-6 bg-transparent pt-6">
+                <button className=" flex items-center
+              px-6 py-3 border-2 border-yellow text-yellow font-mono text-sm uppercase tracking-widest rounded-[999px] ">
+                  <span className="absolute w-1 h-1 bg-yellow rounded-full ml-16"></span>
+                  Sign Up
+                  <span className="absolute w-1 h-1 bg-yellow rounded-full -ml-3"></span>
+                </button>
+              </div>
+            </div>
+
+
           </div>
           {/*<div className="h-full flex flex-col justify-center gap-2">*/}
-          {/*  <span className="w-1 h-6 bg-yellow"></span>*/}
+          {/* */}
           {/*  <span className="my-3 w-1.5 h-1.5 bg-white rounded-full"></span>*/}
           {/*  <span className="w-1 h-72 bg-lightblue grow"></span>*/}
           {/*</div>*/}

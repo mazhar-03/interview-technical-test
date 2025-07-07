@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 w-full backdrop-blur-md  bg-darkblue/70 text-white px-8 py-4 flex justify-between items-center z-50">
+    <nav className="fixed top-0 w-full backdrop-blur-md  bg-darkblue/70 text-white px-8 py-4 flex  items-center z-50">
       <div className="flex items-center container mx-auto">
         <Logo className='mr-20'></Logo>
         <div className="hidden md:flex items-center space-x-16 text-white">
@@ -18,15 +18,14 @@ export default function Navbar() {
           </div>
           <a href="#" className="hover:text-light-blue font-display tracking-normalWide">SEASONS</a>
         </div>
-      </div>
-
-      <div className="flex flex-col w-fit ml-auto">
-        <p className="text-xs pl-2 text-lightblue">
-          User1234
-        </p>
-        <button className="text-xs underline text-yellow" >
-          Log Out
-        </button>
+        <div className="flex flex-col w-fit ml-auto container mx-auto">
+          <p className="text-xs pl-2 text-lightblue">
+            User1234
+          </p>
+          <button className="text-xs underline text-yellow" >
+            Log Out
+          </button>
+        </div>
       </div>
     </nav>
 

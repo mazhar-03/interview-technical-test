@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './Logo';
 import Button from './Button';
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -15,11 +16,21 @@ export default function Footer() {
           <a href="#" className="hover:text-lightblue transition-colors text-yellow font-display mt-6 tracking-spec">LOG OUT</a>
         </div>
 
-        <div className="flex flex-col items-center flex-shrink-0 mb-6 md:mb-0">
-          <Logo  className="text-lg mb-0 bg-lightblue">SK</Logo>
-          <Button className="inline-flex items-center text-sm px-6 py-2 mt-10">
-            WISHLIST ON STEAM
-          </Button>
+        <div className="flex flex-col items-center flex-shrink-0 mb-6 gap-16">
+          <Logo  className="text-lg mb-0 bg-lightblue -mt-4">SK</Logo>
+          <button className=" flex items-center
+                  px-6 py-3 border-2 border-lightblue text-lightblue bg-transparent rounded-[999px] ">
+            <span className="absolute w-1 h-1 bg-lightblue rounded-full ml-34px"></span>
+            WISHLIST ON
+            <Image
+              src="/static/Image/logos/steam_icon.png"
+              alt="Steam Logo"
+              width={24}
+              height={24}
+              className="ml-2"
+            />
+            <span className="absolute w-1 h-1 bg-lightblue rounded-full -ml-3"></span>
+          </button>
         </div>
 
         <div className="flex flex-col items-center md:items-end mb-6 md:mr-80 text-center md:text-right md:flex-1">
