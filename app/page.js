@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className="relative w-full h-screen">
+      <div className="relative w-full h-screen z-0">
         <Image
           src="/static/Image/bg.jpg"
           alt="Background"
@@ -19,11 +19,11 @@ export default function Home() {
           alt="Kangaroo overlay"
           width={2560}
           height={1440}
-          className="absolute w-full h-full z-10 object-cover brightness-125"
+          className="absolute w-full min-h-[500px] bottom-0 right-0 lg:h-full z-10 object-cover object-right brightness-125"
         />
       </div>
 
-      <div className="absolute top-0 w-full ml-4">
+      <div className="absolute top-0 w-full z-10">
         <div className="container flex mx-auto h-screen gap-8">
           <div className="h-full flex flex-col justify-center gap-2">
             <span className="w-1 bg-lightblue h-72"></span>
